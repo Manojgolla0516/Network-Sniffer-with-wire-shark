@@ -46,7 +46,7 @@ A hands-on network traffic analysis project using **Wireshark** on Kali Linux. C
 ### 1. DNS Lookup (UDP)
 **Command used:**
 ```bash
-ping google.com
+ping instagram.com
 ```
 **Filter:** `udp.port == 53`
 
@@ -60,7 +60,7 @@ Before ping sends a single packet, the OS first sends a DNS query over UDP port 
 ### 2. ICMP Ping Traffic
 **Command used:**
 ```bash
-ping google.com
+ping instagram.com
 ```
 **Filter:** `icmp`
 
